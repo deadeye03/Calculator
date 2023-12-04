@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(80, 80, 133);
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.phone-box{
+    background-color: rgb(6, 6, 6);
+    
+    height: 500px;
+    width: 288px;
+    border-radius: 61px;
+    position: relative;
+}
+
+.result-box{
+    height: 14vh;
+    width: 267px;
+    /* background-color:rgb(6, 6, 6); */
+    position: absolute;
+    top: 45px;
+    left: 14px;
+}
+.result-box h2{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: 400;
+    margin: 2px;
+}
+.phone-box img{
+    height: 500px;
+ 
+}
+.cal-btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    position: absolute;
+    top: 23vh;
+    margin-left: 1vw;
+    
+}
+.btn{
+    background-color: rgb(83, 80, 80);
+    height: 10vh;
+    width: 4.8vw;
+    border-radius: 50%;
+    text-align: center;
+    /* padding:22px ; */
+   
+    
+}
+.btn1{
+    background-color: rgb(154, 149, 149);
+}
+.btn1 h2{
+    font-size: 30px;
+    color: black;
+    margin-top: 12px;
+}
+.btn-digit h2{
+    font-size: 30px;
+    color: rgb(254, 251, 251);
+    margin-top: 12px;
+    font-weight: 400;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-orange{
+    background-color: peru;
+}
+.btn img{
+    height: 5vh;
+    object-fit: cover;
+    margin-top: 13px;
+}
+.btn17{
+    
+    border-radius: 60px;
+}
+.btn19{
+    background-color: peru;
+    width: 10vw;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0vh;
+    right: 0;
+}
+.btn19 img{
+    height: 5vh;
+    object-fit: cover;
+    margin-top: 13px;
+}
+
+@media only screen and (max-width:600px){
+    .cal-btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    position: absolute;
+    top: 21vh;
+    margin-left: 2vw;
+    }
+
+.btn{
+    background-color: rgb(83, 80, 80);
+    height: 4vh;
+    width: 8.5vw;
+    border-radius: 44%;
+    text-align: center;
+    padding: 14px;
+}
+.btn img{
+    height: 4vh;
+    object-fit: cover;
+    
+    margin-top: 0;
+}
+.btn-orange{
+    background-color: peru;
+}
+.btn1{
+    background-color: rgb(154, 149, 149);
+}
+.btn1 h2 {
+    font-size: 30px;
+    color: black;
+    margin-top: 0;
+}
+.btn-digit h2 {
+ 
+    margin-top: 0;}
+
+    .btn19 {
+        background-color: peru;
+        width: 35%;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 0vh;
+        right: 2px;
+    }
+    .main-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* height: 100vh; */
+    }
+    .phone-box{
+        height: 67vh;
+        width: 75vw;
+        margin-right: 12vw;
+    }
+    .ph{
+        height: 67vh !important;
+    width: 75vw;
+    }
+    
+    .result-box {
+        height: 14vh;
+        width: 74vw;
+        /* background-color: rgb(196 16 16); */
+        position: absolute;
+        top: 45px;
+        left: 0px;
+    }
+}
